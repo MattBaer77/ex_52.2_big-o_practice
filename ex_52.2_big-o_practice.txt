@@ -1,0 +1,71 @@
+
+STEP 1:
+
+1 - O(n)
+
+2 - O(n)
+
+3 - O(1)
+
+X4 - O(n^2) => O(n^3)
+
+5 - O(n)
+
+X6 - O(log(n)) => O(n)
+
+7 - O(n*log(n))
+
+X8 - O(n^2) => O(2^n)
+
+9 - O(1)
+
+X10 - O(n^2*log(n)) => O(n^2)
+
+
+-
+
+STEP 2:
+
+1 - O(n)
+
+2 - 0(n)
+
+3 - O(1)
+
+4 - O(n)
+
+5 - O(n^2)
+
+5 - O(n)
+
+-
+
+STEP 3:
+
+1 - TRUE
+
+2 - TRUE
+
+3 - FALSE should be O(n^2)
+
+4 - O(n)
+
+5 - O(n)
+
+6 - O(n) * complexity of the function inside of the forEach
+
+7 - O(n log2 n) - minimum for sorting function
+
+X8 - O(1) => O(n)
+
+9 - O(1)
+
+10 - O(n)
+
+11 - O(1)
+
+12 - O(n)
+
+***
+
+13 - O(n)
